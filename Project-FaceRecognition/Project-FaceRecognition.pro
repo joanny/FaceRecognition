@@ -15,7 +15,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     employe.cpp \
-    Service.cpp
+    service.cpp
 
 HEADERS  += mainwindow.h \
     employe.h \

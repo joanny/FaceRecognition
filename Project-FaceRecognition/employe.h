@@ -6,7 +6,28 @@ class Employe
 {
     public:
       Employe();
-      Employe(string nom, string prenom, string lien_image);
+      Employe(int id, string nom, string prenom, string lien_image);
+      bool isMe(Employe unEmploye);
+      int getId();
+
+
+      /*  setteurs   */
+      void setNom(string nom);
+      void setPrenom(string prenom);
+      void setLien_image(string lien_image);
+      void setId(int id);
+      /*  fin setteurs*/
+
+
+
+      /* getteurs  */
+
+      string getNom();
+      string getPrenom();
+      string getLien_Image();
+
+      /*fin getteurs */
+      string toString();
        virtual ~Employe();
 
    private:
